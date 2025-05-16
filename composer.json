@@ -7,7 +7,7 @@
         "Notes",
         "Church"
     ],
-    "homepage": "https://github.com/monkdev/mcms-interactive-notes-php",
+    "homepage": "https://dev.azure.com/ministrybrands/1ES/_git/E360-mcms-interactive-notes-php",
     "license": "MIT",
     "authors": [
         {
@@ -18,7 +18,7 @@
         }
     ],
     "require": {
-        "php": ">=5.6"
+        "php": ">=8.4"
     },
     "require-dev": {
         "larapack/dd": "^1.0",
