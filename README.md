@@ -2,6 +2,27 @@
 
 A PHP Library to transform HTML into an interactive fill the in blank style form.
 
+## Installation via Composer
+
+This package is hosted in a private Azure DevOps Git repository.
+
+### 1. Add the repository to your `composer.json`
+    ```json
+    {
+        "repositories": [
+        {
+        "type": "vcs",
+        "url": "https://dev.azure.com/ministrybrands/1ES/_git/E360-mcms-interactive-notes-php"
+        }
+    ],
+        "require": {
+            "monkdev/mcms-interactive-note-php": "~0.0.3"
+        }
+    }
+    ```
+### 2. Authenticate to Azure DevOps
+You must be authenticated to access the private repository.
+
 ### Installation into an existing MCMS Site
 
 #### File install:
