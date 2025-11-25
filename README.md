@@ -4,21 +4,15 @@ A PHP Library to transform HTML into an interactive fill the in blank style form
 
 ## Installation via Composer
 
-This package is hosted in a private Azure DevOps Git repository.
+This package is available as a public repository on GitHub.
 
-You can install this private Composer package from Azure DevOps using either:
-- HTTPS with a Personal Access Token (PAT), or
-- SSH with an SSH key
-
-### Option 1: Install via HTTPS + Personal Access Token (PAT)
-
-#### 1. Add the repository to your composer.json:
+### Add the repository to your composer.json:
 ```json
 {
     "repositories": [
         {
         "type": "vcs",
-        "url": "https://dev.azure.com/ministrybrands/1ES/_git/E360-mcms-interactive-notes-php"
+        "url": "https://github.com/ministry-brands-llc/mcms-interactive-notes-php.git"
         }
     ],
     "require": {
@@ -26,31 +20,8 @@ You can install this private Composer package from Azure DevOps using either:
     }
 }
 ```
-#### 2. Authenticate to Azure DevOps
-You must be authenticated to access the private repository.
 
-#### 3. Install the package
-```bash
-composer install
-```
-### Option 2: Install via SSH + SSH Key
-
-#### 1. Ensure your SSH key is created and added to Azure DevOps
-#### 2. Add the repository to your composer.json using the SSH URL:
-```json
-{
-    "repositories": [
-        {
-        "type": "vcs",
-        "url": "git@ssh.dev.azure.com:v3/ministrybrands/1ES/E360-mcms-interactive-notes-php"
-        }
-    ],
-    "require": {
-        "monkdev/mcms-interactive-note-php": "~0.0.3"
-    }
-}
-```
-#### 3. Install the package
+### Install the package:
 ```bash
 composer install
 ```
